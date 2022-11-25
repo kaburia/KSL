@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-img = cv2.imread(r'C:\Users\Austin\Desktop\Agent\Hackathons\Safari\Train\Mosque\ImageID_1JYS9RN3.jpg')
+img = cv2.imread('ImageID_1JYS9RN3.jpg')
 
 imgycrcb = cv2.cvtColor(img, cv2.COLOR_BGR2YCR_CB)
 
@@ -42,7 +42,7 @@ cv2.destroyAllWindows()
 
 
 #  Read the original image
-img = cv2.imread(r'C:\Users\Austin\Desktop\Agent\Hackathons\Safari\Train\Mosque\ImageID_0C44DP1S.jpg')
+img = cv2.imread('ImageID_0C44DP1S.jpg')
 
 # Display original image
 cv2.imshow('Original', img)
